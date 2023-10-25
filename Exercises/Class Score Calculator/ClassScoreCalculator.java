@@ -25,8 +25,8 @@ public class ClassScoreCalculator {
                 break;
             }
 
-            scores[i] = score;
-            totalScore += score;
+            scores[i] = score; //assigns the value of the variable score to the i-th element in the scores array.
+            totalScore += score; //adds the value of the score to the totalScore variable.
         }
 
         if (totalScore > 0) {
