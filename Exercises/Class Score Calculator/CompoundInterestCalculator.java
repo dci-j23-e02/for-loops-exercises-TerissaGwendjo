@@ -45,6 +45,6 @@ public class CompoundInterestCalculator {
         double simpleInterest = principal * rate * years;
         System.out.printf("Simple interest after %d years: %.2f%n", years, simpleInterest);
 
-        scanner.close();
+        scanner.close(); // closing the scanner to release resources from leaking
     }
 }
